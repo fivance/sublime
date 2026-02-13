@@ -10,6 +10,8 @@ if (!(Test-Path -Path $destinationPath)) {
     exit 1
 }
 
+Remove-Item -Path "$destinationPath\*" -Recurse -Force
+
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 [System.IO.Compression.ZipFile]::ExtractToDirectory($zipPath, $destinationPath)
 
