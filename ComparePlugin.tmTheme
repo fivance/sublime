@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key><string>ComparePlugin</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#1D1F21</string>
+				<key>foreground</key><string>#D4D4D4</string>
+				<key>caret</key><string>#AEAFAD</string>
+				<key>lineHighlight</key><string>#2A2A2A</string>
+				<key>selection</key><string>#264F78</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><string>Compare Added</string>
+			<key>scope</key><string>compare.added</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#1a3a1a</string>
+				<key>foreground</key><string>#aaffaa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><string>Compare Deleted</string>
+			<key>scope</key><string>compare.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#3a1a1a</string>
+				<key>foreground</key><string>#ffaaaa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><string>Compare Changed</string>
+			<key>scope</key><string>compare.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#2e2a10</string>
+				<key>foreground</key><string>#ffeeaa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><string>Compare Blank</string>
+			<key>scope</key><string>compare.blank</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#2A2D2F</string>
+				<key>foreground</key><string>#4A4D4F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><string>Compare Inline</string>
+			<key>scope</key><string>compare.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key><string>#FFEE00</string>
+				<key>foreground</key><string>#000000</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -95,28 +95,6 @@
       "scope": "constant.numeric.value.powershell",
       "foreground": "#5b9dff"
     }, 
-      {
-      "scope": "custom.ini.key",
-      "foreground": "#468a57"  
-    },
-    {
-      "scope": "custom.ini.equals",
-      "foreground": "#FF474C"  
-    },
-    {
-      "scope": "custom.ini.value",
-      "foreground": "#FFFFFF"  
-    },
-    {
-      "scope": "comment.line.ini",
-      "foreground": "#808080", 
-      "font_style": "italic"
-    },
-    {
-      "scope": "entity.name.section.ini",
-      "foreground": "#90EE90", 
-      "font_style": "bold"
-    },
     {
       "scope": "keyword.cfg",
       "foreground": "#e06c75"
@@ -136,6 +114,41 @@
     {
       "scope": "comment.cfg",
       "foreground": "#6b6b6b"
+    },
+    {
+      "name": "INI Section Brackets",
+      "scope": "punctuation.section.ini",
+      "foreground": "#FF6B6B"
+    },
+    {
+      "name": "INI Section Name",
+      "scope": "entity.name.section.ini",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "name": "INI Key",
+      "scope": "variable.ini",
+      "foreground": "#6BB5FF"
+    },
+    {
+      "name": "INI Quoted String Value",
+      "scope": "string.quoted.ini",
+      "foreground": "#6DBF67"
+    },
+    {
+      "name": "INI String Punctuation (quotes)",
+      "scope": "punctuation.string.ini",
+      "foreground": "#FF6B6B"
+    },
+    {
+      "name": "INI Boolean True",
+      "scope": "constant.language.true.ini",
+      "foreground": "#6DBF67"
+    },
+    {
+      "name": "INI Boolean False",
+      "scope": "constant.language.false.ini",
+      "foreground": "#FF6B6B"
     }
    
 	]

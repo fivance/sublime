@@ -20,7 +20,7 @@
     "show_definitions": false,
     "show_tab_close_buttons": true, 
     "tab_size": 2,
-    "themed_title_bar": true,
+    "themed_title_bar": false,
     "fold_buttons": false,
     "gutter": true,
     "Default_encoding": "UTF-8",
@@ -52,7 +52,7 @@
     "index_files": true,
     "file_associations":
                         {
-                            "*.cfg": "Packages/User/cfg.sublime-syntax"
+                            "*.cfg": "Packages/User/cfg.sublime-syntax",
                         },
     "theme": "Adaptive.sublime-theme",
 }
