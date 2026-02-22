@@ -1,0 +1,31 @@
+{
+    "variables": {}, 
+    "name": "ComparePlugin colours", 
+    "rules": [
+        {
+            "name": "Compare Added", 
+            "background": "#1a3a1a", 
+            "scope": "compare.added", 
+            "foreground": "#aaffaa"
+        }, 
+        {
+            "name": "Compare Deleted", 
+            "background": "#3a1a1a", 
+            "scope": "compare.deleted", 
+            "foreground": "#ffaaaa"
+        }, 
+        {
+            "name": "Compare Changed", 
+            "background": "#2e2a10", 
+            "scope": "compare.changed", 
+            "foreground": "#ffeeaa"
+        }, 
+        {
+            "name": "Compare Blank", 
+            "background": "#2A2D2F", 
+            "scope": "compare.blank", 
+            "foreground": "#4A4D4F"
+        }
+    ], 
+    "globals": {}
+}

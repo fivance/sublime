@@ -1,0 +1,11 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Package Control",
+		"Rename Buffer",
+	],
+	"in_process_packages":
+	[
+	],
+}

@@ -1,0 +1,8 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Copy Line to Other View",
+        "command": "compare_copy_line_to_other"
+    },
+    { "caption": "-" }
+]
