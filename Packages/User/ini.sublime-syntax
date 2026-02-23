@@ -22,11 +22,11 @@ contexts:
       push: value
   value:
     # Boolean true
-    - match: '\btrue\b'
+    - match: '(?i)\btrue\b'
       scope: constant.language.true.ini
       pop: true
     # Boolean false
-    - match: '\bfalse\b'
+    - match: '(?i)\bfalse\b'
       scope: constant.language.false.ini
       pop: true
     # Quoted string value
