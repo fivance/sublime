@@ -2,7 +2,7 @@
     
     "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
     "draw_shadows": false,
-    "highlight_line": true,
+    "highlight_line": false,
     "highlight_modified_tabs": false,
     "animation_enabled": true,
     "caret_extra_bottom": 1,
@@ -19,6 +19,8 @@
     "scroll_past_end": false,
     "show_definitions": false,
     "show_tab_close_buttons": true, 
+    "enable_tab_scrolling": false,
+    "hide_new_tab_button": true,
     "tab_size": 2,
     "themed_title_bar": false,
     "fold_buttons": false,
@@ -26,6 +28,7 @@
     "Default_encoding": "UTF-8",
     "hardware_acceleration": "opengl",
     "always_show_minimap_viewport": true,
+    "draw_minimap_border": true,
     "show_encoding": true,
     "show_sidebar_icons": true,
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
@@ -33,6 +36,7 @@
   "default_line_ending": "system",
   "tab_completion": true,
   "auto_complete": true,
+
 
     //color theme settings
     "monokai_pro_file_icons": true,
@@ -50,9 +54,5 @@
     "dark_theme": "Default Dark.sublime-theme",
     "light_theme": "Default Dark.sublime-theme",
     "index_files": true,
-    "file_associations":
-                        {
-                            "*.cfg": "Packages/User/cfg.sublime-syntax",
-                        },
     "theme": "Adaptive.sublime-theme",
 }
