@@ -1,27 +1,27 @@
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
-	"variables":
-	{
-	},
-	"globals":
-	{
-		"background": "#1D1F21",
-		"caret": "#036FEB",
-		"selection": "#183c66",
-		"selection_border": "183c66",
-		"selection_corner_style": "round",
-		"selection_border_width": "1",
-		"selection_corner_radius": "3"
-		
-	},
-	"rules":
-	[
+  "variables":
+  {
+  },
+  "globals":
+  {
+    "background": "#1D1F21",
+    "caret": "#036FEB",
+    "selection": "#183c66",
+    "selection_border": "183c66",
+    "selection_corner_style": "round",
+    "selection_border_width": "1",
+    "selection_corner_radius": "3"
+    
+  },
+  "rules":
+  [
     {
       "scope": "string.quoted.double.xml",
       "foreground": "#6ed481"
     },
     
-		{
+    {
       "name": "XML Tag Names",
       "scope": "entity.name.tag.localname.xml",
       "foreground": "#69A3E1",   
@@ -40,20 +40,20 @@
 
     {
       "scope": "string.unquoted.powershell",
-      "foreground": "#0F52BA",
-      "font_style": ""
+      "foreground": "#60B5FF",
+      "font_style": "bold"
     },
     {
       "scope": "string.quoted.double.heredoc.powershell",
-      "foreground": "#80838A"
+      "foreground": "#8FABD4"
     },
     {
       "scope": "string.quoted.double.powershell",
-      "foreground": "#A8DF8E"
+      "foreground": "#8FABD4"
     },
     {
       "scope": "support.function.powershell",
-      "foreground": "#6395EE"
+      "foreground": "#4DA8DA"
     },
     {
       "scope": "variable.parameter.option.powershell",
@@ -74,82 +74,51 @@
     {
       "scope": "keyword.declaration.function.powershell",
       "foreground": "#FF5B5B"
-    },  
-    {
-      "scope": "meta.function.powershell",
-      "foreground": "#FF5B5B"
-    },      
-    {
-      "scope": "variable.function.powershell",
-      "foreground": "#FF5B5B"
-    },        
+    },    
     {
       "scope": "entity.name.function.powershell",
       "foreground": "#4DA8DA"
     }, 
     {
-      "scope": "comment.block.powershell",
-      "foreground": "#468a57"
-    }, 
-    {
-      "scope": "constant.numeric.value.powershell",
-      "foreground": "#5b9dff"
-    }, 
-    {
-      "scope": "keyword.cfg",
-      "foreground": "#e06c75"
-    },
-    {
-      "scope": "variable.cfg",
-      "foreground": "#61afef"
-    },
-    {
-      "scope": "punctuation.cfg",
-      "foreground": "#e06c75"
-    },
-    {
-      "scope": "string.cfg",
-      "foreground": "#ffffff"
-    },
-    {
-      "scope": "comment.cfg",
-      "foreground": "#6b6b6b"
-    },
-    {
-      "name": "INI Section Brackets",
-      "scope": "punctuation.section.ini",
-      "foreground": "#FF6B6B"
-    },
-    {
-      "name": "INI Section Name",
       "scope": "entity.name.section.ini",
+      "foreground": "#98FF98"
+    }, 
+    {
+      "scope": "string.unquoted.ini",
       "foreground": "#FFFFFF"
-    },
+    }, 
     {
-      "name": "INI Key",
-      "scope": "variable.ini",
-      "foreground": "#6BB5FF"
-    },
+      "scope": "constant.language.boolean.true.ini",
+      "foreground": "#0080FF"
+    }, 
     {
-      "name": "INI Quoted String Value",
-      "scope": "string.quoted.ini",
-      "foreground": "#6DBF67"
-    },
+      "scope": "constant.language.boolean.false.ini",
+      "foreground": "#FF4040"
+    }, 
     {
-      "name": "INI String Punctuation (quotes)",
-      "scope": "punctuation.string.ini",
-      "foreground": "#FF6B6B"
-    },
+      "scope": "constant.numeric.value.ini",
+      "foreground": "#FFFFFF"
+    }, 
     {
       "name": "INI Boolean True",
       "scope": "constant.language.true.ini",
-      "foreground": "#6DBF67"
+      "foreground": "#B4E50D"
     },
     {
       "name": "INI Boolean False",
       "scope": "constant.language.false.ini",
-      "foreground": "#FF6B6B"
+      "foreground": "#F63049"
+    },
+    {
+            "name": "INI Key",
+            "scope": "variable.ini",
+            "foreground": "#6fc3df"
+    },
+    {
+            "name": "INI Value",
+            "scope": "string.ini",
+            "foreground": "#ffffff"
     }
    
-	]
+  ]
 }
