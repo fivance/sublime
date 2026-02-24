@@ -1,0 +1,32 @@
+%YAML 1.2
+---
+name: Log File Detailed
+file_extensions:
+  - el
+scope: source.el-log
+
+contexts:
+  main:
+    - match: '(\s*\d+\.\d+\s+Message)\s*(:)(.*)'
+      captures:
+        1: keyword.message-label.el-log
+        2: keyword.colon.el-log
+        3: keyword.message-text.el-log
+
+    - match: '(\s*\d+\.\d+\s+Type)\s*(:)(.*)'
+      captures:
+        1: keyword.type-label.el-log
+        2: keyword.colon.el-log
+        3: keyword.type-text.el-log
+
+    - match: '(\s*\d+\.\d+\s+Version Number)\s*(:)\s*(\d[\d.]+)'
+      captures:
+        1: keyword.version-label.el-log
+        2: keyword.colon.el-log
+        3: keyword.version-number.el-log
+
+    - match: '(?!.*\b(Message|Type|Version Number)\b)(\s*\d+\.\d+\s+[\w\s]+?)\s*(:)(.*)'
+      captures:
+        2: keyword.system-label.el-log
+        3: keyword.colon.el-log
+        4: keyword.system-value.el-log

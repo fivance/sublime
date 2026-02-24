@@ -89,7 +89,7 @@
     }, 
     {
       "scope": "constant.language.boolean.true.ini",
-      "foreground": "#0080FF"
+      "foreground": "#08CB00"
     }, 
     {
       "scope": "constant.language.boolean.false.ini",
@@ -102,7 +102,7 @@
     {
       "name": "INI Boolean True",
       "scope": "constant.language.true.ini",
-      "foreground": "#B4E50D"
+      "foreground": "#08CB00"
     },
     {
       "name": "INI Boolean False",
@@ -110,15 +110,97 @@
       "foreground": "#F63049"
     },
     {
-            "name": "INI Key",
-            "scope": "variable.ini",
-            "foreground": "#6fc3df"
+      "name": "INI Key",
+      "scope": "variable.ini",
+      "foreground": "#6fc3df"
     },
     {
-            "name": "INI Value",
-            "scope": "string.ini",
-            "foreground": "#ffffff"
-    }
+      "name": "INI Value",
+      "scope": "string.ini",
+      "foreground": "#ffffff"
+    },
+{
+            "name": "Log Save",
+            "scope": "keyword.save.log",
+            "foreground": "#0088ff",
+            "font_style": "bold"
+        },
+        {
+            "name": "Log Error",
+            "scope": "keyword.error.log",
+            "foreground": "#ff0000",
+            "font_style": "bold"
+        },
+        {
+            "name": "Log Arrow",
+            "scope": "keyword.arrow.log",
+            "foreground": "#ff6666",
+            "font_style": "bold"
+        },
+        {
+            "name": "Log ID Number",
+            "scope": "keyword.id-number.log",
+            "foreground": "#00cc44"
+        },
+        {
+            "name": "Log Warning",
+            "scope": "keyword.warning.log",
+            "foreground": "#ffaa00",
+            "font_style": "bold"
+        },
+        {
+            "name": "Log Info",
+            "scope": "keyword.info.log",
+            "foreground": "#44aaff"
+        },
+        {
+            "name": "Log Debug",
+            "scope": "keyword.debug.log",
+            "foreground": "#aaaaaa"
+        },
+        {
+            "name": "EL Message Label",
+            "scope": "keyword.message-label.el-log",
+            "foreground": "#0088ff",
+            "font_style": "bold"
+        },
+        {
+            "name": "EL Message Text",
+            "scope": "keyword.message-text.el-log",
+            "foreground": "#ff8888"
+        },
+        {
+            "name": "EL Type Label",
+            "scope": "keyword.type-label.el-log",
+            "foreground": "#0088ff",
+            "font_style": "bold"
+        },
+        {
+            "name": "EL Type Text",
+            "scope": "keyword.type-text.el-log",
+            "foreground": "#ff8888"
+        },
+        {
+            "name": "EL Version Label",
+            "scope": "keyword.version-label.el-log",
+            "foreground": "#0088ff",
+            "font_style": "bold"
+        },
+        {
+            "name": "EL Version Number",
+            "scope": "keyword.version-number.el-log",
+            "foreground": "#66ff99"
+        },
+        {
+            "name": "EL System Label",
+            "scope": "keyword.system-label.el-log",
+            "foreground": "#66ccff"
+        },
+        {
+            "name": "EL System Value",
+            "scope": "keyword.system-value.el-log",
+            "foreground": "#66ff99"
+        }
    
   ]
 }

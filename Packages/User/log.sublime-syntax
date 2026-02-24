@@ -1,0 +1,30 @@
+%YAML 1.2
+---
+name: Log File
+file_extensions:
+  - log
+scope: source.log
+
+contexts:
+  main:
+    - match: '\bSAVE\b'
+      scope: keyword.save.log
+
+    - match: '\bERROR\b'
+      scope: keyword.error.log
+
+    - match: '---[<>]|[<>]---'
+      scope: keyword.arrow.log
+
+    - match: 'ID:(\d+)'
+      captures:
+        1: keyword.id-number.log
+
+    - match: '\b(WARN|WARNING)\b'
+      scope: keyword.warning.log
+
+    - match: '\b(INFO)\b'
+      scope: keyword.info.log
+
+    - match: '\b(DEBUG)\b'
+      scope: keyword.debug.log
