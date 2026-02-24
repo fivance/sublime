@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: Log File Detailed
+name: .el log
 file_extensions:
   - el
 scope: source.el-log

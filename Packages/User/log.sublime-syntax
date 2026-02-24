@@ -10,7 +10,7 @@ contexts:
     - match: '\bSAVE\b'
       scope: keyword.save.log
 
-    - match: '\bERROR\b'
+    - match: '\b(ERROR|error)\b'
       scope: keyword.error.log
 
     - match: '---[<>]|[<>]---'
