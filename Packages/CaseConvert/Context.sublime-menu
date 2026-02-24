@@ -1,0 +1,13 @@
+[
+       
+            {
+                "caption": "lower case",
+                "command": "convert_to_lowercase"
+            },
+            {
+                "caption": "UPPER CASE",
+                "command": "convert_to_uppercase"
+            }
+        ]
+    
+    
