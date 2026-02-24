@@ -1,5 +1,4 @@
 {       
-    
     "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
     "draw_shadows": false,
     "highlight_line": false,
@@ -32,21 +31,14 @@
     "show_encoding": true,
     "show_sidebar_icons": true,
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-  "word_wrap": "auto",
-  "default_line_ending": "system",
-  "tab_completion": true,
-  "auto_complete": true,
-
-
-    //color theme settings
+    "word_wrap": "auto",
+    "default_line_ending": "system",
+    "tab_completion": true,
+    "auto_complete": true,
     "monokai_pro_file_icons": true,
     "monokai_pro_file_based_icons": true,
     "monokai_pro_highlight_open_folders": true,
-
-    "ignored_packages":
-    [
-        "Vintage",
-    ],
+    "ignored_packages": [ "Vintage", ],              
     "font_size": 11,
     "font_face": "Source Code Pro Semibold",
     "dark_color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
