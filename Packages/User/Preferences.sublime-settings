@@ -25,7 +25,6 @@
     "fold_buttons": false,
     "gutter": true,
     "Default_encoding": "UTF-8",
-    "hardware_acceleration": "opengl",
     "always_show_minimap_viewport": true,
     "draw_minimap_border": true,
     "show_encoding": true,
